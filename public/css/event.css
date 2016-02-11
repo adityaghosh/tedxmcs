@@ -1,0 +1,13 @@
+#wrapper #main {
+	text-align: center;
+	
+
+}
+
+#wrapper #main #widgetticket {
+	height: 385px;
+	width: 960px;
+	position: relative;
+	top: -382px;
+	left:196px;
+}

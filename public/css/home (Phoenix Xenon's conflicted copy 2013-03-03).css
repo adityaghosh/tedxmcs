@@ -1,0 +1,226 @@
+#wrapper {
+	width: 1020px;
+	overflow: hidden;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 5px;
+	position: relative;
+}
+#wrapper #main #frame {
+	height: 600px;
+}
+
+#wrapper #footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #FFF;
+	position: fixed;
+	bottom: 5px;
+	width: 1020px;
+}
+#wrapper #header #logo {
+	float: left;
+	
+}
+
+ul {
+	list-style-type:none;}
+a {
+	text-decoration: none;
+	color: #000;
+}
+	
+li {display:inline;}
+
+#wrapper #header #menubar {
+	float: right;
+	overflow: visible;
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	list-style: none;
+	height: 110px;
+	width: 620px;
+	background-position: center;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+	
+}
+#wrapper #header #menubar #mainmenu {
+	padding-right: 40px;
+	padding-top: 20px;
+}
+
+
+#wrapper #main {
+	clear: both;
+	position: relative;
+
+}
+
+#wrapper #header {
+	height: 125px;
+	position: relative;
+	top: 10px;
+	background-color: #000;
+	/*border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	*/
+	
+	padding-right: 5px;
+	padding-left: 5px;
+	
+}
+#wrapper #main #masterframe {
+	width: auto;
+	height: 700px;
+	position:absolute;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+#wrapper #main #masterframe #strip {
+
+	position: relative;
+	z-index: 0;
+}
+
+.scroll-pane
+			{
+				width: 100%;
+				height: 550px;
+				overflow-y:hidden;
+				position:absolute;
+
+			}
+.horizontal-only
+			{
+	max-height: 820px;
+	position: relative;
+	top: 0px;
+	width: auto;
+	
+			}
+#wrapper #main .scroll-pane.horizontal-only #moon {
+	position: absolute;
+	top: 10px;
+	left:0px;
+	z-index: -1;
+}
+#wrapper #main .scroll-pane.horizontal-only #stickman {
+	position: absolute;
+	z-index:2;
+	left:0px;
+	top:280px;
+}
+
+#wrapper #main .scroll-pane.horizontal-only #frankbfsh {
+	position: absolute;
+	z-index: -3;
+	left: 1500px;
+	top: 120px;
+}
+#wrapper #main .scroll-pane.horizontal-only #frankaftershock {
+	position: absolute;
+	z-index: -2;
+	left: 1500px;
+	top: 125px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #lightening {
+	position: absolute;
+	z-index: -1;
+	left: 1644px;
+	top: 52px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #socketwithglow {
+	position: absolute;
+	z-index: -1;
+	left: 1493px;
+	top: 380px;
+}
+#wrapper #main .scroll-pane.horizontal-only #socketwithoutglow {
+	position: absolute;
+	z-index: -2;
+	left: 1492px;
+	top: 380px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #buildingwithlight {
+	position: absolute;
+	z-index: 1;
+	left: 1396px;
+	top: 213px;
+	visibility:hidden;
+}
+
+#wrapper #main .scroll-pane.horizontal-only #scene1text{
+	position:absolute;
+	top:210px;
+	width:130px;
+	text-align:center;
+	color:#FFF;
+	opacity:0;
+	left:530px;
+	}
+::-webkit-scrollbar {
+    width: 0px;
+} 
+::-webkit-scrollbar-track {
+    background-color: #000;
+} 
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+} 
+::-webkit-scrollbar-button {
+    background-color: #000;
+} 
+::-webkit-scrollbar-corner {
+	background-color: black;
+}
+#wrapper #main .scroll-pane.horizontal-only #stickman {
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 280px;
+}
+#wrapper #main .scroll-pane.horizontal-only #explosistbefore {
+	position: absolute;
+	z-index: 0;
+	left: 2324px;
+	top: 232px;
+}
+#wrapper #main .scroll-pane.horizontal-only #explosistafter {
+	position: absolute;
+	visibility: hidden;
+	z-index: 1;
+	left: 2323px;
+	top: 232px;
+}
+#wrapper #main .scroll-pane.horizontal-only #kaboom {
+	position: absolute;
+	z-index: 0;
+	left: 2350px;
+	top: 100px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #smoke {
+	position: absolute;
+	z-index: 0;
+	left: 2250px;
+	top: 130px;
+	opacity:0;
+}
+#wrapper #main .scroll-pane.horizontal-only #dynamite {
+	position: absolute;
+	left: 2420px;
+	top: 320px;
+}

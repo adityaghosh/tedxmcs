@@ -1,0 +1,447 @@
+#wrapper #main {
+	clear: both;
+	position: relative;
+
+}
+
+
+#wrapper #main #masterframe {
+	width: auto;
+	height: 700px;
+	position:absolute;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+#wrapper #main #masterframe #strip {
+
+	position: relative;
+	z-index: 0;
+}
+
+.scroll-pane
+			{
+				width: 100%;
+				height: 550px;
+				overflow-y:hidden;
+				position:absolute;
+
+			}
+.horizontal-only
+			{
+	max-height: 820px;
+	position: relative;
+	top: 0px;
+	width: auto;
+/*	-webkit-filter: blur(10px);	*/
+			}
+.horizontal-only1
+{
+	max-height: 820px;
+	position: relative;
+	top: 0px;
+	/*-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);*/
+}
+
+#wrapper #main .scroll-pane.horizontal-only #moon {
+	position: absolute;
+	top: 10px;
+	left:200px;
+	z-index: -1;
+}
+#wrapper #main .scroll-pane.horizontal-only #stickman {
+	position: absolute;
+	z-index:2;
+	left:0px;
+	top:280px;
+}
+
+#wrapper #main .scroll-pane.horizontal-only #frankbfsh {
+	position: absolute;
+	z-index: -3;
+	left: 1500px;
+	top: 120px;
+}
+#wrapper #main .scroll-pane.horizontal-only #frankaftershock {
+	position: absolute;
+	z-index: -2;
+	left: 1490px;
+	top: 120px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #lightening {
+	position: absolute;
+	z-index: -1;
+	left: 1675px;
+	top: 65px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #socketwithglow {
+	position: absolute;
+	z-index: -1;
+	left: 1493px;
+	top: 380px;
+}
+#wrapper #main .scroll-pane.horizontal-only #socketwithoutglow {
+	position: absolute;
+	z-index: -2;
+	left: 1492px;
+	top: 380px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #buildingwithlight {
+	position: absolute;
+	z-index: 1;
+	left: 1396px;
+	top: 213px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #buildingwithglow {
+	position: absolute;
+	z-index: 2;
+	left: 1393px;
+	top: 212px;
+	visibility:hidden;
+	
+}
+
+#wrapper #main .scroll-pane.horizontal-only #scene1text{
+	position:absolute;
+	top:210px;
+	width:130px;
+	text-align:center;
+	color:#FFF;
+	opacity:0;
+	left:530px;
+	}
+::-webkit-scrollbar {
+    width: 0px;
+} 
+::-webkit-scrollbar-track {
+    background-color: #000;
+} 
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+} 
+::-webkit-scrollbar-button {
+    background-color: #000;
+} 
+::-webkit-scrollbar-corner {
+	background-color: black;
+}
+::-ms-scrollbar {
+    width: 0px;
+} 
+::-ms-scrollbar-track {
+    background-color: #000;
+} 
+::-ms-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+} 
+::-ms-scrollbar-button {
+    background-color: #000;
+} 
+::-ms-scrollbar-corner {
+	background-color: black;
+}
+::-moz-scrollbar {
+    width: 0px;
+} 
+::-moz-scrollbar-track {
+    background-color: #000;
+} 
+::-moz-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+} 
+::-moz-scrollbar-button {
+    background-color: #000;
+} 
+::-moz-scrollbar-corner {
+	background-color: black;
+}
+#wrapper #main .scroll-pane.horizontal-only #stickmanskate {
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+#wrapper #main .scroll-pane.horizontal-only #stickmanskate #stickman{
+	position:absolute;
+	left:55px;
+	top:300px;
+	/*visibility:hidden;*/
+	z-index:2;
+}
+#wrapper #main .scroll-pane.horizontal-only #stickmanskate #stickmanhandsup{
+	position:absolute;
+	left:60px;
+	top:300px;
+	visibility:hidden;
+	z-index:2;
+}
+
+#wrapper #main .scroll-pane.horizontal-only #stickmanskate #skate{
+	position:absolute;
+	left:50px;
+	top:450px;
+	z-index:1;
+}
+
+
+#wrapper #main .scroll-pane.horizontal-only #explosistbefore {
+	position: absolute;
+	z-index: 0;
+	left: 2219px;
+	top: 288px;
+}
+#wrapper #main .scroll-pane.horizontal-only #explosistafter {
+	position: absolute;
+	visibility: hidden;
+	z-index: 1;
+	left: 2223px;
+	top: 313px;
+}
+#wrapper #main .scroll-pane.horizontal-only #kaboom {
+	position: absolute;
+	z-index: 1;
+	left: 2200px;
+	top: -2px;
+	visibility: hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #smoke {
+	position: absolute;
+	z-index: 1;
+	left: 2250px;
+	opacity:0;
+	top: 225px;
+	
+}
+#wrapper #main .scroll-pane.horizontal-only #dynamite {
+	position: absolute;
+	left: 2300px;
+	top: 275px;
+}
+#wrapper #main .scroll-pane.horizontal-only #explosistlater {
+	position: absolute;
+	left: 2200px;
+	top: 340px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #redlight {
+	position: absolute;
+	z-index: 1;
+	left: 3891px;
+	top: 276px;
+}
+#wrapper #main .scroll-pane.horizontal-only #rudder1 {
+	position: absolute;
+	left: 3483px;
+	top: 0px;
+		
+}
+#wrapper #main .scroll-pane.horizontal-only #rudder2 {
+	position: absolute;
+	visibility:hidden;
+	left: 3492px;
+	top: 0px;
+}
+#wrapper #main .scroll-pane.horizontal-only #xray {
+	position: absolute;
+	left: 3680px;
+	top: 11px;
+	z-index:2;
+}
+#wrapper #main .scroll-pane.horizontal-only #xrayman {
+	position: absolute;
+	left: 3664px;
+	top: 63px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #xraymaninverted {
+	position: absolute;
+	left: 3664px;
+	top: 63px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #mushroomkaboom {
+	position: absolute;
+	left: 2250px;
+	top: 0px;
+	visibility:hidden;
+	z-index: 1;
+}
+#wrapper #main .scroll-pane.horizontal-only #rockonroad {
+	position: absolute;
+	z-index: 0;
+	left: 3351px;
+	top: 435px;
+	visibility:hidden;
+}
+#wrapper #main .scroll-pane.horizontal-only #dboulder {
+	position: absolute;
+	left: 2500px;
+	top: 160px;
+}
+#wrapper #main .scroll-pane.horizontal-only #scene1text {
+	position: absolute;
+	z-index: 2;
+	top: 175px;
+	left: 498px;
+}
+#wrapper #main .scroll-pane.horizontal-only #otherrock {
+	position: absolute;
+	z-index: 2;
+	visibility:hidden;
+	left: 3420px;
+	top: 450px;
+}
+#wrapper #main #coverpane {
+	position: absolute;
+	z-index: 2;
+	background-color: transparent;
+	/*opacity:0.9;*/
+	/*-webkit-filter: blur(2px);*/
+	visibility: visible;
+	text-align: center;
+}
+#wrapper #main #coverpane2 {
+	position: absolute;
+	z-index: 1;
+	background-color: transparent;
+	/*opacity:0.9;*/
+	/*-webkit-filter: blur(2px);*/
+	visibility: visible;
+	text-align: center;
+}
+#wrapper #main .scroll-pane.horizontal-only #carsmoke {
+	position: absolute;
+	left: 480px;
+	top: 300px;
+	z-index: -1;
+	opacity:0;
+}
+#wrapper #main .scroll-pane.horizontal-only #panout1 {
+	position: absolute;
+	left: 6650px;
+	top: 0px;
+	z-index: -2;
+	text-align:center;
+}
+
+#wrapper #main .scroll-pane.horizontal-only #panout2 {
+	position: absolute;
+	left: 6650px;
+	text-align:center;
+	opacity:0;
+	top: 0px;
+	z-index: -2;
+}
+#wrapper #main .scroll-pane.horizontal-only #panout3 {
+	position: absolute;
+	left: 6650px;
+	top: 0px;
+	opacity:0;
+	z-index: -2;
+	text-align:center;
+}
+#wrapper #main .scroll-pane.horizontal-only #wit {
+	position: absolute;
+	background-color:#000;
+	height:560px;
+	left: 6750px;
+	top: 0px;
+	visibility:hidden;
+	z-index: 1;
+	text-align:center;
+}
+
+#wrapper #main .scroll-pane.horizontal-only #scene1 {
+	position: absolute;
+	z-index: -1;
+	left: 850px;
+	top: 100px;
+	width:450px;
+	visibility:hidden;
+}
+
+h4
+{
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+	}
+	h3
+{
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 24px;
+	text-align: center;
+	}
+	
+#wrapper #main .scroll-pane.horizontal-only #scene4 {
+	position: absolute;
+	left: 3850px;
+	top: 90px;
+	z-index: -1;
+	width:400px;
+}
+#wrapper #main .scroll-pane.horizontal-only #scene2 {
+	position: absolute;
+	z-index: 0;
+	left: 1750px;
+	top: 180px;
+	width:350px;
+}
+#wrapper #main .scroll-pane.horizontal-only #scene3 {
+	position: absolute;
+	z-index: -1;
+	left: 3000px;
+	top: 50px;
+	width:300px;
+}
+
+#wrapper #main .scroll-pane.horizontal-only #scenelast {
+	position: absolute;
+	z-index: 3;
+	left: 7115px;
+	top: -25px;
+	width:300px;
+}
+
+
+#wrapper #footer #menulinks {
+	float: left;
+	width: 15%;
+	font-size: 20px;
+}
+
+#wrapper {
+	overflow: hidden;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 5px;
+}
+
+
+#wrapper #header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 5;
+}
+
+
+ul {
+	list-style-type:none;}
+a {
+	text-decoration: none;
+	color: #000;
+}
+	
+li {display:inline;}

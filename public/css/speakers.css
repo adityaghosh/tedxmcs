@@ -1,0 +1,22 @@
+#wrapper #main {
+	text-align: center;
+}
+#slideshow {
+	position: absolute;
+	width: 240px;
+	height: 240px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	z-index: 5;
+	left: 750px;
+	top: 223px;
+
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+

@@ -1,0 +1,24 @@
+#wrapper #main {
+	color: #FFF;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-style:italic;
+	text-align: center;
+}
+
+p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	}
+#wrapper #main #maintext ul li #section1 {
+	width: 290px;
+}
+#wrapper #main #maintext ul li #register {
+	width: 400px;
+}
+#wrapper #main #maintext ul li #section3 {
+	width: 290px;
+}

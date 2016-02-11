@@ -1,0 +1,28 @@
+#wrapper #main {
+	color: #FFF;
+	width: 1200px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+#wrapper #main #leftdiv {
+	float: left;
+	width: 400px;
+	
+
+}
+#wrapper #main #rightdiv {
+	float: right;
+	width: 750px;
+	
+}
+
+h1
+{
+	color:#F00;}
+
+p
+{
+	text-align: justify;	}

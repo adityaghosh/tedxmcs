@@ -1,0 +1,37 @@
+#wrapper #main #aboutpic {
+	position: fixed;
+	right: 0px;
+}
+#wrapper #main {
+	/*color: #FFF;*/
+	height:540px;
+}
+#wrapper #main #aboutus {
+	float: left;
+	padding-left: 100px;
+	text-align: justify;
+	padding-right: 150px;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-style:italic;
+	text-align: center;
+}
+#wrapper #main #aboutus #bullets {
+	padding-right: 10px;
+	padding-left: 130px;
+	text-align: left;
+}
+
+p
+{
+	font-family: 'Roboto', sans-serif;
+	}
+	
+h1
+{
+	font-family: 'Roboto', sans-serif;
+	
+	color: #F00;
+	}

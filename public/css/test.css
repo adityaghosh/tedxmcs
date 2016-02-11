@@ -1,0 +1,25 @@
+#wrapper #footer {
+	background-color: #999;
+	width: 80%;
+	margin: 0 auto;
+	position:fixed;
+	bottom:0px;
+	height:	100px;
+}
+#wrapper {
+	width: 1000px;
+	margin:0 auto;
+	background-color:#0FF;
+	height:100%;
+}
+#wrapper #header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+#wrapper #main {
+	position: absolute;
+	height: 355px;
+	width: 960px;
+	top: 150px;
+}
