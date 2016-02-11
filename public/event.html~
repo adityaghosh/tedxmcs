@@ -2,16 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TEDx</title>
 <script type="text/javascript" src="js/menujs.js">
 </script>
-<link href="css/tedx.css" rel="stylesheet" type="text/css" />
+<title>The Event</title>
+<link rel="icon" href="http://www.tedxmastercanteensquare.com/favicon.ico">
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
-<link rel="icon" href="favicon.ico">
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<link href="css/event.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body bgcolor="#000000">
+<body bgcolor="#000000" style="overflow-y:hidden">
 <div id="wrapper">
 	<div id="header">
     	<div id="logo">
@@ -26,7 +25,7 @@
                 <img src="images/menu/2 speakers1.png" id="ted2"/></a></li>
                 <li onmouseover="changeImageTeam()" onmouseout="changeImageTeam2()"><a href="team.html">
                 <img src="images/menu/3 team1.png" id="ted3"/></a></li>
-                <li onmouseover="changeImageEvent()" onmouseout="changeImageEvent2()"><a href="#">
+                <li onmouseover="changeImageEvent()" onmouseout="changeImageEvent2()"><a href="event.html">
                 <img src="images/menu/4 events1.png" id="ted4"/></a>
                 <li onmouseover="changeImageSponsors()" onmouseout="changeImageSponsors2()"><a href="sponsors.html">
                 <img src="images/menu/5 sponsors1.png" id="ted5"/></a></li>
@@ -36,12 +35,14 @@
         </div>
     </div>
     <div id="main">
-    	<img src="images/about/aboutus.jpg" />
+		<img src="images/events.jpg" />
+        <div id="widgetticket">
+        	<iframe frameborder="0" src='http://event.ayojak.com/widget/tedxmastercanteensquare' style="height:100%; width:960px; border:none; overflow:hidden;" scrolling="no" ></iframe>
+        </div>
     </div>
     <div id="footer">
     	&copy; 2013 TEDXMASTERCANTEENSQUARE | ALL RIGHTS RESERVED
         THIS INDEPENDENTLY ORGANIZED TEDX EVENT IS OPERATED UNDER LICENSE FROM TED
     </div>
 </div>
-</body>
-</html>
+</body></html>

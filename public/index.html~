@@ -1,11 +1,139 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TEDxMasterCanteenSquare</title>
+<script src="js/jquery-1.9.1.js"></script>
 
-<body>
-<h1>First Index</h1>
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="favicon.ico">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/menujs.js">
+	
+</script>
+<script type="text/javascript" src="js/homejs.js">
+</script>
+</head>
+
+<body bgcolor="#000000" style="overflow-y:hidden">
+<div id="wrapper">
+	<div id="header">
+    	<div id="logo">
+        	<a href="index.html">
+            	<img src="images/logo.png" width="439" height="110" id="logopic" /></a>
+        </div>
+        <div id="menubar">
+        	<ul id="mainmenu">
+            	<li onmouseover="changeImageTed()" onmouseout="changeImageTed2()"><a href="tedx.html">
+                <img src="images/menu/1 ted1.png" id="ted1" /></a></li>
+                <li onmouseover="changeImageSpeakers()" onmouseout="changeImageSpeakers2()"><a href="speakers.html">
+                <img src="images/menu/2 speakers1.png" id="ted2"/></a></li>
+                <li onmouseover="changeImageTeam()" onmouseout="changeImageTeam2()"><a href="team.html">
+                <img src="images/menu/3 team1.png" id="ted3"/></a></li>
+                <li onmouseover="changeImageEvent()" onmouseout="changeImageEvent2()"><a href="event.html">
+                <img src="images/menu/4 events1.png" id="ted4"/></a>
+                <li onmouseover="changeImageSponsors()" onmouseout="changeImageSponsors2()"><a href="sponsors.html">
+                <img src="images/menu/5 sponsors1.png" id="ted5"/></a></li>
+                <li onmouseover="changeImageAbout()" onmouseout="changeImageAbout2()"><a href="about.html">
+                <img src="images/menu/6 about1.png" id="ted6"/></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+    	<div id="coverpane">
+        
+        	<img src="images/cover with loading.png" id="cover"/>
+
+        </div>
+            <div id="coverpane2">
+           			 <img src="images/cover with loading without glow.png" id="cover1"/>
+            </div>        	
+    	<div class="scroll-pane horizontal-only" >
+
+    	  <div id="moon">
+          		<img src="images/home/new_moon.png"  />
+          </div>
+          <img src="images/strip full blur 2.png" id="strip"/>
+      
+          <div id="frankbfsh">
+            	<img src="images/home/Sc2/franklin before shock.png"/>
+            </div>
+            <div id="carsmoke">
+            	<img src="images/home/car smoke.png" />
+            </div>
+            <div id="lightening"><img src="images/home/Sc2/lightening.png" /></div>
+                <div id="frankaftershock" ><img src="images/home/Sc2/franklin after shock.png" /></div>
+                
+                <div id="buildingwithlight" ><img src="images/home/Sc2/building_full_glow.png" /></div>
+                <div id="buildingwithglow"><img src="images/home/Sc3/building_full_glow.png" /></div>
+                <div id="explosistbefore"><img src="images/home/Sc3/dynamite man before.png" /></div>
+                <div id="explosistafter"><img src="images/home/Sc3/dynamite man after blast.png" /></div>
+                <div id="explosistlater"><img src="images/home/Sc3/man_and_wall.png" /></div>
+                <div id="mushroomkaboom"><img src="images/home/Sc3/mushroom cloud.png" /></div>
+                <div id="kaboom"><img src="images/home/Sc3/boom.png" /></div>
+                <div id="smoke"><img src="images/home/Sc3/mushroom cloud 2.png" /></div>
+                <div id="dynamite"><img src="images/home/Sc3/dynamite_wire.png" /></div>
+                <div id="rockonroad"><img src="images/home/Sc3/rock on road.png" /></div>
+                <div id="otherrock"><img src="images/home/Sc3/rock on road small pieces.png" /></div>
+                <div id="dboulder"><img src="images/home/Sc3/d boulder.png" /></div>
+                <div id="redlight"><img src="images/home/Sc4/red_light.png" /></div>
+                <div id="rudder1"><img src="images/home/Sc4/rudder1.png" /></div>
+                <div id="rudder2"><img src="images/home/Sc4/rudder2.png" /></div>
+                <div id="xray"><img src="images/home/Sc4/xray.png" /></div>
+                <div id="xrayman"><img src="images/home/Sc4/xray_man.png" /></div> 
+                <div id="xraymaninverted"><img src="images/home/Sc4/xray man inverted.png" /></div>   
+          <div id="stickmanskate">
+          	<div id="stickman">
+          	<img src="images/home/stickman without skateboard.png" />
+            </div>
+            <div id="stickmanhandsup">
+            <img src="images/home/man with hands up.png">
+            </div>
+            <div id="skate">
+            <img src="images/home/only skateboard.png" />
+            </div>
+          </div>
+           <div id="scene1text">
+           	<img src="images/home/talk blob.png" />
+           </div>
+           <div id="panout1">
+           	<img src="images/panout 1.png" />
+           </div>
+           <div id="panout2">
+           	<img src="images/panout 2-1.png" />
+           </div>
+           <div id="panout3">
+           	<img src="images/panout 2-2.png" />
+           </div>
+           <div id="wit" align="center">
+           <h4>What is <a href="http://www.ted.com/tedx" style="color:#F00">Tedx</a>?</h4>
+           <h3>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDx[name], where x = independently organized TED event. At our TEDx[name] event, TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.
+           </h3>
+           </div>
+           <h4 id="scene1">
+           		That One Idea which Connects.
+           </h4>
+           <h4 id="scene2">
+           		That One Idea which Illuminates.
+            </h4>
+           <h4 id="scene3">
+           		That One Idea which is Mind-Blowin.
+           </h4>
+           <h4 id="scene4">
+           		That One Idea which Looks Within.
+           </h4>
+           <h4 id="scenelast">
+				That One Idea Which Makes Center Stage.           
+           </h4>
+
+        
+        </div>
+    </div>
+    <div id="footer" style="width:100%;text-align:center;">
+    	&copy; 2013 TEDXMASTERCANTEENSQUARE | ALL RIGHTS RESERVED
+        THIS INDEPENDENTLY ORGANIZED TEDX EVENT IS OPERATED UNDER LICENSE FROM TED  
+    </div>
+</div>
 </body>
 </html>

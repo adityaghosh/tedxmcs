@@ -10,10 +10,10 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="js/slide.js"></script>-->
   <script src="js/jquery.slides.min.js"></script>
-<title>Team</title>
-<link rel="icon" href="favicon.ico">
+<title>About</title>
+<link rel="icon" href="http://www.tedxmastercanteensquare.com/favicon.ico">
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
-<link href="css/team.css" rel="stylesheet" type="text/css" />
+<link href="css/about.css" rel="stylesheet" type="text/css" />
  <link rel="stylesheet" href="css/example1.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <style>
@@ -152,7 +152,7 @@
                 <li onmouseover="changeImageTeam()" onmouseout="changeImageTeam2()"><a href="team.html">
                 <img src="images/menu/3 team1.png" id="ted3"/></a></li>
                 <li onmouseover="changeImageEvent()" onmouseout="changeImageEvent2()"><a href="event.html">
-                <img src="images/menu/4 events1.png" id="ted4"/></a>
+                <img src="images/menu/4 events1.PNG" id="ted4"/></a>
                 <li onmouseover="changeImageSponsors()" onmouseout="changeImageSponsors2()"><a href="sponsors.html">
                 <img src="images/menu/5 sponsors1.png" id="ted5"/></a></li>
                 <li onmouseover="changeImageAbout()" onmouseout="changeImageAbout2()"><a href="about.html">
@@ -160,25 +160,13 @@
             </ul>
         </div>
     </div>
- <div id="main" align="center" style="position:relative;">
-	 <img src="images/team/0bg.jpg" />
-	<div class="container" align="center" style="height:540px;width:auto;position:relative;top:-560px;">
-    <div id="slides" style="width:1200px;">
-      <img src="images/team/1.png" >
-      <img src="images/team/3.png" >
-      <img src="images/team/2.png" >
-      <img src="images/team/4.png" >
-      <img src="images/team/5.png" >
-      <img src="images/team/6.png" >
-      <img src="images/team/7.png" >
-      <img src="images/team/8.png" >
-      <img src="images/team/9.png" >
-      <img src="images/team/10.png" >
-      <img src="images/team/11.png" >
-      <img src="images/team/12.png" >
-      <img src="images/team/13.png" >
-      <img src="images/team/14.png" >
-      <img src="images/team/15.png" >                              
+ <div id="main" align="center">
+	<div class="container" style="height:540px;width:auto;">
+    <div id="slides" style="width:960px;">
+      <img src="images/about/about1.jpg" >
+      <img src="images/about/about2.jpg" >
+      <img src="images/about/about3.jpg" >
+      <img src="images/about/about4.jpg" >
       <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
       <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
     </div>
@@ -197,7 +185,7 @@
     $(function() {
       $('#slides').slidesjs({
         width: 1000,
-        height: 405,
+        height: 480,
         navigation: false
       });
     });

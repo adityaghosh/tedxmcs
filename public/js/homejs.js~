@@ -36,12 +36,12 @@ $(document).ready(function(e) {
 				}
 				else
 				{
-					$('#cover').css('background-image','images/cover without glow.png');
+					$('#cover').css('background-image','images/cover without glow.PNG');
 					$('#cover').fadeIn(220,function(e){
-					$('#cover').attr('src','images/cover without glow.png');
+					$('#cover').attr('src','images/cover without glow.PNG');
 					});
 					$('#cover').fadeOut(220,function(e){
-					$('#cover').attr('src','images/cover with glow.png');
+					$('#cover').attr('src','images/cover with glow.PNG');
 					});
 				}
 	});
@@ -52,7 +52,7 @@ $(document).ready(function(e) {
 				$('#coverpane').css('visibility','visible');
 				$('#coverpane2').css('visibility','visible');
 				$('#scene1text').css('z-index',-1);
-				$('#strip').attr('src','images/strip full blur 2.png');
+				$('#strip').attr('src','images/strip full blur 2.PNG');
 				$('#skate').css('visibility','hidden');
 				$('#stickman').css('visibility','hidden');
 				$('#stickmanhandsup').css('visibility','hidden');				
@@ -66,7 +66,7 @@ $(document).ready(function(e) {
 			if(flag==0)
 			{
 				$('#scene1text').css('z-index',-1);
-				$('#strip').attr('src','images/strip_full.png');
+				$('#strip').attr('src','images/strip_full.PNG');
 				$('#coverpane').fadeOut(1200,'linear');
 				$('#coverpane2').fadeOut(1200,'linear');
 				$('#skate').css('left',55);
