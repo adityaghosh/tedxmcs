@@ -1,3 +1,3 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+This repository holds code for the website designed for TEDxMasterCanteenSquare
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+The idea behind this website is the combined effort of the team behind TEDxMasterCanteenSquare - An event held on 21st of April 2013 in Bhubaneswar, India.
